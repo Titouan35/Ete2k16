@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+
+    <!-- Ajout des fichiers de bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap-theme.css" media="screen" title="no title" charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8" />
+
+    <!-- Style perso -->
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8" />
+    <link rel="stylesheet" href="css/menu-responsive.css" media="screen" title="no title" charset="utf-8" />
+    <link rel="stylesheet" href="css/social-buttons.css" media="screen" title="no title" charset="utf-8">
+
+    <!-- Ajout de fonts google -->
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+    <!-- Ajout des feuilles de style avec media queries -->
+    <link rel="stylesheet" href="css/style_phone.css" media="(max-width: 800px)" title="no title" charset="utf-8" />
+
+    <!-- CSS pour les social-buttons -->
+    <link rel='stylesheet prefetch' href='http://jmblog.github.io/color-themes-for-google-code-prettify/css/themes/tomorrow-night.css'>
+    <link rel="stylesheet" href="socialbutton/css/style.css">
+
+    <!-- Palette de couleur :
+Sunflower
+Greensea
+Orange
+   -->
+    <!-- favicon pour le site  -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Balise meta pour Google -->
+    <meta name="description" content="Portfolio de Titouan Raffray, web developper..." />
+
+    <!-- Script pour Google analytics -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-82406938-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="background-header">
+                <nav>
+                    <div class="menu">
+
+
+                        <ul class="topnav" id="myTopnav">
+                            <li><a href="#home">A propos</a></li>
+                            <li><a href="#news">Mes travaux</a></li>
+                            <li><a href="#contact">Me contacter</a></li>
+                            <li><a href="#about">Nouveauté</a></li>
+                            <li class="icon">
+                                <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                            </li>
+                            <li><img src="ic_add_black_24dp/web/ic_add_white_24dp_2x.png" alt="" class="button-plus" /></li>
+                        </ul>
+
+
+
+                    </div>
+                </nav>
+
+                <div class="container test-click">
+                    <h1 class="text-center name">Titouan Raffray</h1>
+                    <h2 class="fonction">Web designer & web developer !</h2>
+                </div>
+
+                <div class="bar-recherche container" style="z-index: -2;">
+                    <div id="custom-search-input">
+                        <div class="input-group col-md-12">
+                            <input type="text" class="form-control input-lg" placeholder="Faites votre recherche !" />
+                            <span class="input-group-btn">
+                                      <button class="btn btn-info btn-lg" type="button">
+                                          <i class="glyphicon glyphicon-search"></i>
+                                      </button>
+                                  </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carre-header">
+                    <h1 class="titre-carre-header text-center">Hello !</h1>
+                    <div class="line-carre-header"></div>
+                    <img src="photo2.jpg" alt="" class="photo-carre-header" />
+                    <p class="text-carre-header">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div class="mb_share" style="position: absolute; bottom: 10px; left: 10px;">
+                    <div class="button github slide_ny">
+                        <div class="icon"></div>
+                        <div class="slide">
+                            <span style="line-height: 0.7;">
+                            Github
+                        </span>
+                        </div>
+                        <div class="native_button">
+                            <div style="cursor: pointer;"><a href="https://github.com/Titouan35">Titouan Raffray</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button twitter slide_x">
+                        <div class="icon"></div>
+                        <div class="slide">
+                            <span style="line-height: 0.7;">
+                                Twitter
+                            </span>
+                        </div>
+                        <div class="native_button">
+                            <div><a href="https://twitter.com/TitouanRaffray">Titouan Raffray</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button pinterest slide_y">
+                        <div class="icon"></div>
+                        <div class="slide">
+                            <span style="line-height: 0.7;">
+                              Pinterest
+                          </span>
+                        </div>
+                        <div class="native_button">
+                            <div><a href="https://fr.pinterest.com/TitouanRaffray/">Titouan Raffray</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="form-about"></div>
+            <div class="form-about2"></div>
+
+            <section id="about" class="about">
+
+                <h1 class="text-center" class="titre-about" style="color: white;">A propos</h1>
+                <img src="id-card.svg" alt="card" class="carte-about" />
+                <img src="iphone5c.jpg" alt="iphone" class="iphone_5c" />
+
+            </section>
+            <section id="news" class="work">
+                <h1 class="text-center">Mes travaux</h1>
+
+                <div class="line"></div>
+
+                <div class="container">
+                    <img src="favicon.png" alt="" class="graph_works" />
+                    <p class="p_graph_works">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+
+
+            </section>
+            <section class="transparent">
+
+            </section>
+            <section class="transparent2">
+
+            </section>
+            <section id='about' class="news">
+                <div class="triangle" class='foo' data-scroll-reveal="enter left and move 50px over 1.33s">
+                    <h1>Me contacter</h1>
+                </div>
+
+            </section>
+        </div>
+
+    </header>
+    <script type="text/javascript">
+    </script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.foo');
+    </script>
+    <!-- Ajout de la librairie scrollreveal  -->
+    <script src="scrollreveal.min.js" charset="utf-8" type="text/JavaScript"></script>
+    <script type="text/javascript">
+        window.scrollReveal = new scrollReveal();
+    </script>
+    <!--Ajout des librairies de jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="Js/menu-responsive.js" charset="utf-8"></script>
+    <script src="Js/jquery-perso.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function() {
+            prettyPrint();
+            $('.lang-html').mouseover(function() {
+                $(this).addClass('over');
+            });
+            $('.lang-html').mouseleave(function() {
+                $(this).removeClass('over');
+            });
+        });
+    </script>
+    <script src="Js/outside-click.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".carre-header").bind("clickoutside", function(event) {
+                $(this).hide();
+            });
+
+        });
+    </script>
+
+
+
+</body>
+
+</html>

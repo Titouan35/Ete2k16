@@ -1,0 +1,190 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Lato !important;
+}
+.background-header {
+    background-image: url(../background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: -2;
+}
+.carre-header {
+    width: 30%;
+    height: 80vh;
+    background-color: #795548;
+    position: absolute;
+    top: 0;
+    right: 120px;
+    z-index: -2;
+    text-align: center;
+}
+.titre-carre-header {
+    margin-top: 100px;
+    color: white;
+}
+.line-carre-header {
+    border: 2px solid white;
+    margin-right: 18%;
+    margin-left: 18%;
+    margin-top: 7%;
+}
+.photo-carre-header {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.text-carre-header {
+    margin-top: 20px;
+    color: white
+}
+.about {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 100%;
+    background-color: #16a085;
+}
+.form-about {
+    width: 0;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-bottom: 20vw solid #16a085;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    z-index: -2;
+}
+.form-about2 {}
+.iphone_5c {
+    width: 400px;
+    height: auto;
+}
+.carte-about {
+    width: 150px;
+    height: auto;
+}
+.titre-about {
+    color: white;
+}
+.work {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 200%;
+    background-color: #f39c12;
+}
+.graph_works {
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+.p_graph_works {
+    margin-left: 220px;
+    margin-top: 65px;
+}
+.line {
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.news {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 300%;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 400px solid #f39c12;
+    border-right: 100vw solid transparent;
+    border-left: 400px solid #f39c12;
+    position: absolute;
+    left: -15px !important;
+}
+.triangle h1 {
+    position: absolute;
+    top: -400px;
+    width: 100vw;
+}
+.transparent{
+  width: 100vw;
+  height: 40vh;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 410%;
+  background-color: red;
+}
+.transparent2{
+  width: 100vw;
+  height: 27vh;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 470%;
+  background-color: red;
+}
+
+.button-github{
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  background: none;
+  border: 3px solid black;
+  margin-top: 50vh;
+}
+.button-github:hover{
+  background-color: red;
+}
+
+.logo-button-github img{
+  -webkit-transition:-webkit-transform .9s; // Chrome Safari
+  -moz-transition:-moz-transform .9s;       // Mozilla
+  -o-transition:-o-transform .9s;           // Opéra
+  -ms-transition:-ms-transform .9s;         // IE
+  transition:transform .9s;
+}
+.logo-button-github img:hover{
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -ms-transform:rotate(360deg); 
+  transform:rotate(360deg);
+}
+.bar-recherche{
+position: absolute;
+top: 300px;
+margin-left: 10vw;
+text-align: center;
+}
+.button-plus{
+  cursor: pointer;
+  position: absolute;
+  right: 300px;
+  line-height: 100px;
+}
